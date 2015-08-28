@@ -1,6 +1,6 @@
 body{
   font-family: 'sans-serif';
-  background: linear-gradient(blue, white);
+  background-color: #85ADFF;
 }
 
 h1{
@@ -43,7 +43,3 @@ img{
 p {
   border: 50px solid red;
 }
-#grad{
-  background: linear-gradient(white, blue);
-}
-#p1 {background-color: hsla(120, 100%, 50%, 0.3);} /* green with opacity */
