@@ -2,6 +2,7 @@ class Jokes
 
   def initialize
     @Gaming =["Q: What do you call a Pokemon who can't move very fast?
+
 A: A Slow-poke", "Q: What do you get when you cross the Madden NFL video game and a sick hamburger?
 A: Madden Cow Disease", "Q: What does Princess Peach sit on at a bar?
 A: A toad stool"]
@@ -9,7 +10,7 @@ A: A toad stool"]
 A: Order anything you like and the guy behind you has to pay for it.", "joke2p", "joke3p"]
     @Kids = ["joke1k", "joke2k", "joke3k"]
     @Random = ["joke1r", "joke2r", "joke3r"]
-  end
+ end
 
     def get_joke (category)
       if category == "Kids"
