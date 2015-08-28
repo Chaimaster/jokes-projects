@@ -1,8 +1,18 @@
 body{
   font-family: 'sans-serif';
+  background: linear-gradient(blue, white);
 }
 
-h2{ 
+h1{
+  font-family: 'monospace';
+  text-align: center;
+  font-weight: bold;
+  font-size: 300%;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h2{
   font: strong;
   text-align: center;
 }
@@ -16,7 +26,7 @@ form{
 }
 
 form{
-  
+
   border: 1px solid;
   border-radius: 5px;
 }
@@ -24,9 +34,16 @@ form{
 label, input, option{
   margin-top: 2%;
   margin-bottom: 2%;
-  
+
 }
 img{
   margin-left: 31%;
   margin-right: 33%;
 }
+p {
+  border: 50px solid red;
+}
+#grad{
+  background: linear-gradient(white, blue);
+}
+#p1 {background-color: hsla(120, 100%, 50%, 0.3);} /* green with opacity */
